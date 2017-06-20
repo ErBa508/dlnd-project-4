@@ -1,8 +1,8 @@
-## Udacity Deep Learning Foundations Project 3: TV Script Generation
+## Udacity Deep Learning Foundations Project 4: Language Translation
 
-Project file code can be found at: **dlnd_tv_script_generation.ipynb**
+Project file code can be found at: **dlnd_language_translation.ipynb**
 
 Project completed using [floydhub.com](https://www.floydhub.com).
 
 ### Project summary:
-Generated own Simpsons TV scripts using RNNs. The dataset has been preprocessed (tokenized with lookup tables for word embeddings) and trained via a seq2seq RNN neural network with LSTM cells.
+Translate small corpus of English sentences to French. The dataset has been preprocessed (convert words to numbers and these indices into word embeddings) and trained via a seq2seq RNN neural network using LSTM cells with dropout in the encoder and decoder layers.
